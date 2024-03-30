@@ -10,3 +10,11 @@ export const addSkill = (student: StudentType, skill: string) => {
         title: skill
     })
 }
+
+export const makeStudentActive = (student: StudentType) => {
+    student.isActive = true;
+}
+
+export const doesStudentLiveIn = (student: StudentType, city: string) => {
+    return student.address.city.title === city;
+}
