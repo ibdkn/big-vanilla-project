@@ -2,6 +2,7 @@ import {CityType} from "./02_02";
 
 let city: CityType;
 
+//  Test-driven development (TDD)
 beforeEach(() => {
     city = {
         title: "New York",
