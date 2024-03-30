@@ -54,6 +54,4 @@ test("splitting into words should be correct", () => {
     expect(result2[2]).toBe("best");
     expect(result2[3]).toBe("programming");
     expect(result2[4]).toBe("language");
-
-
 })
