@@ -77,7 +77,7 @@ test("Budget should be changed for FIRE-STATION", () => {
     // expect(city.governmentBuildings[1].budget).toBe(400000);
 })
 
-test.skip('House should be repaired', () => {
+test('House should be repaired', () => {
     repairHouse(city.houses[1])
     expect(city.houses[1].repaired).toBeTruthy()
 })
